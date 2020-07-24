@@ -1,0 +1,325 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: url(spikes.png);
+    margin: 0;
+    padding: 0;
+    /* max-width: 1200px;
+    margin: auto; */
+    font-family: monospace;
+}
+nav {
+    width: 100%;
+    font-size: 18px;
+    /* background: #262626; */
+    overflow: hidden;
+    /* position: fixed; */
+    top: 0;
+    border-bottom: 1px solid purple;
+}
+nav h1 {
+    float: left;
+    margin-left: 110px;
+    color: black;
+    cursor: pointer;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-right: 90px;
+}
+nav ul li {
+    float: right;
+}
+nav ul li a {
+    padding: 30px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 500ms;
+}
+nav ul li a:hover{
+    color: violet;
+}
+.txt-img-container {
+    /* background: url(abstract-antique-backdrop-background-164005.jpg) no-repeat ; */
+    /* background-size: cover; */
+    /* border: 2px solid black; */
+    /* max-width: 80%; */
+    max-width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 60% 70%;
+    grid-template-rows: 98% 100%;
+    column-gap: 20px;
+    row-gap: 10px;
+    /* display: flex;
+    flex-direction: row; */
+}
+.active {
+    color: violet ;
+}
+.txt-container {
+    /* background-color: #efefef; */
+    background: url(abstract-antique-backdrop-background-164005.jpg) no-repeat;
+    background-size: cover;
+    /* border: 1px solid black; */
+    /* max-width: 73%;
+    height: auto; */
+    /* box-shadow: 5px 5px 20px rgba(0,0,0, 0.7); */
+    margin: 0;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 900;
+}
+.txt-container p {
+    font-size: larger;
+    line-height: 40px;
+}
+button {
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: black;
+    cursor: pointer;
+    margin-left: 20px;
+}
+button:hover {
+    font-size: 18px;
+}
+.txt-container a button {
+    text-decoration: none;
+    font-weight: 700;
+    color: whitesmoke;
+}
+.img-container {
+    /* border: 1px solid black; */
+    background: url(pic2.jpeg) no-repeat;
+    background-size: cover;
+    max-width: 51%;
+    box-shadow: 5px 5px 20px rgba(0,0,0, 0.7);
+}
+/* .img-container img {
+    /* width: 378px;
+    height: 504px; */
+    /*width: 378px;
+    height: 588px;
+    margin: 0;
+}*/
+.about-me-container {
+    background-color: #efefef;
+    border: 1px solid violet;
+    border-radius: 30px;
+    font-size: 18px;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 5px 5px 20px rgba(0,0,0, 0.7);
+}
+.about-me-container p {
+    text-indent: 50px;
+    line-height: 30px;
+}
+.grid-container {
+    /* background-color: rebeccapurple; */
+    max-width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10px 10px;
+}
+.grid-item img {
+    box-shadow: 5px 5px 20px rgba(0,0,0, 0.7);
+}
+/* .grid-item1 img {
+    width: 640px;
+    height: 505px;
+}
+.grid-item2 img {
+    width: 560px;
+    height: 758px;
+}
+.grid-item3 img {
+    width: 540px;
+    height: 405px;
+} */
+.grid-item2 {
+    grid-row: 1 / 3;
+    margin-left: 180px;
+}
+.grid-item1 img {
+    width: 500px;
+    height: 355px;
+    border: 1px solid violet;
+}
+.grid-item2 img {
+    width: 460px;
+    height: 730px;
+    border: 1px solid violet;
+}
+.grid-item3 img {
+    width: 500px;
+    height: 355px;
+    border: 1px solid violet;
+}
+
+/* .grid-item4 img {
+    width: 816px;
+    height: 612px;
+} */
+
+/* h1 {
+    margin: 80px 0 20px 80px;
+    text-align: center;
+    padding: 0;
+} */
+
+.submit:hover {
+    background-color: violet;
+}
+footer {
+    border-top: 1px solid purple;
+    font-size: 18px;
+    text-align: center ;
+}
+
+/* div h1 {
+    width: 35%;
+    background: black;
+    color: violet;
+    text-align: center;
+} */
+div ul li {
+    list-style: none;
+    clear: left;
+    color: whitesmoke;
+}
+
+.contact-p {
+    font-size: large;
+    margin-left: 480px;
+    line-height: 30px;
+}
+.iconify {
+     width: 24px; 
+     height: 24px;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+input:focus, textarea:focus {
+    border: 1px solid violet;
+}
+/* 4k responsive */
+ @media (min-width: 2560px) {
+    .img-container {
+        background: url(pic2.jpeg) no-repeat ;
+        background-size: 350px;
+        max-width: 28%;
+        box-shadow: 5px 5px 20px rgba(0,0,0, 0.7);
+    }
+    .grid-item2 {
+        grid-row: 1 / 3;
+        margin-left: 580px;
+    }
+} 
+/* Laptop and Desktop responsive */
+@media (max-width: 1440px) {
+    .grid-item2 {
+        grid-row: 1 / 3;
+        margin-left: 140px;
+    } 
+} 
+ @media (max-width: 1024px) {
+    .img-container {
+        background: url(pic2.jpeg) no-repeat ;
+        background-size: 500px;
+        max-width: 75%;
+        box-shadow: 5px 5px 20px rgba(0,0,0, 0.7);
+    }
+    .grid-item2 {
+        grid-row: 1 / 3;
+        margin-left: 50px;
+    } 
+    .grid-container {
+        /* background-color: rebeccapurple; */
+        max-width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        /* grid-gap: 10px 10px; */
+    }
+    .grid-item1 img {
+        width: 400px;
+        height: 255px;
+    }
+    .grid-item2 img {
+        width: 360px;
+        height: 535px;
+    }
+    .grid-item3 img {
+        width: 400px;
+        height: 255px;
+    }
+}
+/* tablet responsive //Still have an issue to fix here....// */
+@media (width: 768px) {
+    nav h1 {
+        float: left;
+        margin-left: 60px;
+        color: black;
+        cursor: pointer;
+    }
+    nav ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-right: 50px;
+    }
+    
+    .grid-item1 img {
+        width: 300px;
+        height: 155px;
+    }
+    .grid-item2 img {
+        width: 260px;
+        height: 335px;
+    }
+    .grid-item3 img {
+        width: 300px;
+        height: 155px;
+    }
+    .contact-p {
+        font-size: large;
+        margin-left: 360px;
+    }
+}
