@@ -231,6 +231,7 @@ form input:focus, form textarea:focus {
 @media only screen and (max-width: 450px) {
     nav h1 {
         margin-left: 0px;
+	font-size: 30px;
     }
     .txt-img-container {
         grid-template-columns: auto auto; 
