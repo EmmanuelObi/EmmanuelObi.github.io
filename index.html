@@ -1,75 +1,194 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmanuel Obi</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Css/index.css" />
+  </head>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Emmanuel Obi</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-    </head>
-
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">
-                    <h1>Emmanuel Obi</h1>
-                </a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navMenu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navMenu">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
-                        <li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
-                        <li class="nav-item"><a href="Contact.html" class="nav-link">Contact Me</a></li>
-                    </ul>
-                </div>
-            </nav>        
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+          <h1>Emmanuel Obi</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="Contact.html" class="nav-link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-        <main class="main">
-            <div class="txt-img-container">
-                <div class="txt-container">
-                     <h1>Hello, I'm Emmanuel.</h1><br>
-                    <p>
-                       I'm a Software Developer specializing in User interface/ User experience development.<br> I'll leave a link to my github repo so you can checkout my work<br> and feel free to get in touch if you want to work with me. 
-                    </p>
-
-                    
-                    <a href="Contact.html"><button>CONTACT ME</button></a>
-                    <a href="about.html"><button>ABOUT ME</button></a>
-                </div>
-                <div class="img-container">
-                    <img src="pic2.jpeg" alt="Emmanuel Posing for a picture">
-                </div>
-
+    <main id="main" class="main container-fluid">
+      <div class="row txt-img-container">
+        <!-- <div class="img-container col-md-4">
+          <img
+            class="img-fluid"
+            src="./images/pic2.jpeg"
+            alt="Emmanuel Posing for a picture"
+          />
+        </div> -->
+        <div class="txt-container col-md-12 p-4">
+          <h2 class="text-capitalize page-header">Hello, I'm Emmanuel.</h2>
+          <br />
+          <p>
+            I'm an Entry-level Software Developer specializing in User
+            interface/ User experience development.<br />
+            I'll leave a link to my github repo so you can checkout my work<br />
+            and feel free to get in touch if you want to work with me.
+          </p>
+          <div class="cta">
+            <a href="Contact.html" class="btn bg-dark">Contact Me</a>
+            <a href="#about" class="btn bg-dark">About Me</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section id="about container-fluid">
+      <div class="row">
+        <article
+          class="about-me-container col-md-9 p-4 ml-auto mr-auto p-4 m-4"
+        >
+          <p>
+            My full name is Obi Emmanuel Nnamdi. I'm from Delta State, Nigeria.
+            I reside in Lagos but i school in Ogun State. I am the third of five
+            kids in a family of seven.
+          </p>
+          <p>
+            I'm 19 Years Old, Currently a FirstClass Undergraduate Studying
+            Electrical/Electronics Engineering at Olabisi Onabanjo University,
+            Ago-iwoye Ogun State. If i was to describe my self with five words
+            i'd say i am Brilliant, Creative, Consistent, Reliable and
+            Disciplined. I am eager to learn and always prepared to deliver, i
+            have a drive for success and i get the job done.
+          </p>
+          <p>
+            As Regards My skills: I'm great with HTML5 & CSS3, Python,
+            JavaScript, Django, SQL, Git and some related Tools. I can help
+            bring your ideas to reality and develop very nice UI/UX Views. I've
+            built personal projects and also taken Various courses that i
+            believe is shaping me well enough to become an all round
+            professional. I'll leave a link to where you can see projects i've
+            worked on. I love coding and i hope anyone reading this can
+            contribute to my professional journey.
+          </p>
+        </article>
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide col-md-9 p-4 ml-auto mr-auto"
+          data-bs-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+            ></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./images/pic2.jpeg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                </p>
+              </div>
             </div>
-            
-        </main>
-        <footer>
-            <i class="fa fa-copyright" aria-hidden="true">&copy;Emmanuel Obi's Page, all rights reserved.</i>
-        </footers>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./images/pic4.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/pic1.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleDark"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleDark"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3 text-light">
+        © 2020 Copyright:
+        <a class="text-light" href="index.html">Emmanuel Obi</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-        <script>
-            $('#navMenu ul li').click(function () {
-                $(this).addClass('active').siblings().removeClass('active');
-            });
-        </script>
-    </body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-
