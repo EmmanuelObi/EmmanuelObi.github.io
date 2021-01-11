@@ -8,14 +8,10 @@ body {
   font-family: "Lato", sans-serif;
   width: 100%;
 }
-/* .container-fluid {
-  height: 78vh;
-} */
 nav {
   width: 100%;
   position: fixed;
   font-size: 18px;
-  /* background: url(../images/spikes.png); */
   overflow: hidden;
   top: 0;
   border-bottom: 1px solid purple;
@@ -41,8 +37,7 @@ nav ul li a {
   font-weight: bold;
   transition: all 500ms;
 }
-#main,
-#about {
+#main {
   height: 100vh;
 }
 .row {
@@ -50,8 +45,14 @@ nav ul li a {
 }
 .row .txt-container {
   color: #010508;
-  background: url(../images/abstract-antique-backdrop-background-164005.jpg);
-  background-position: center;
+  /* background: url(../images/abstract-antique-backdrop-background-164005.jpg);
+  background-position: center; */
+  background: rgb(101, 155, 39);
+  background: -webkit-linear-gradient(left, #00c6ff, rgb(101, 155, 39));
+  background: -o-linear-gradient(left, #00c6ff, rgb(101, 155, 39));
+  background: -moz-linear-gradient(left, #00c6ff, rgb(101, 155, 39));
+  background: linear-gradient(left, #00c6ff, rgb(101, 155, 39));
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,6 +60,7 @@ nav ul li a {
   text-align: center;
   font-size: x-large;
   font-weight: 900;
+  letter-spacing: 2px;
 }
 .txt-container h2 {
   font-size: 35px;
@@ -88,19 +90,30 @@ nav ul li a {
   color: rgb(101, 155, 39);
   border: 1px solid purple;
 }
+.cta {
+  display: flex;
+  justify-content: space-between;
+}
 
+.page-header h2 {
+  color: rgb(101, 155, 39);
+}
 .about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
   text-align: center;
   font-size: large;
   font-weight: 900;
   border-radius: 1vh;
-  border: 2px solid purple;
+  border: 2px solid rgb(101, 155, 39);
+  letter-spacing: 2px;
+  line-height: 40px;
 }
-/* .carousel {
-  height: 40vh;
-} */
 .carousel img {
   max-width: 100%;
-  height: 700px;
+  height: 600px;
+  border-radius: 10px;
 }
