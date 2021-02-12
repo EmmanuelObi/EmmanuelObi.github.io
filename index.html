@@ -6,6 +6,10 @@
     <title>Emmanuel Obi</title>
     <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       type="text/css"
       href="./ContactFrom_v1/vendor/bootstrap/css/bootstrap.min.css"
@@ -14,6 +18,10 @@
       rel="stylesheet"
       type="text/css"
       href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link
       rel="stylesheet"
@@ -56,7 +64,7 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="index.html">
           <h1>Emmanuel Obi</h1>
         </a>
@@ -84,10 +92,12 @@
     </header>
 
     <main id="main" class="main container-fluid">
-      <div class="row txt-img-container">
+      <div class="row first">
         <div class="txt-container col-md-12 p-4">
           <h2 class="text-capitalize page-header text-dark">
-            Hello, I'm Emmanuel.
+            <span id="hello"
+              >Hello, I'm <span class="color"> Emmanuel</span>.</span
+            >
           </h2>
           <br />
           <p>
@@ -96,6 +106,7 @@
             I'll leave a link to my github repo so you can checkout my work<br />
             and feel free to get in touch if you want to work with me.
           </p>
+          <br />
           <div class="cta">
             <a href="#contact" class="btn bg-dark">Contact Me</a>
             <a href="#about" class="btn bg-dark">About Me</a>
@@ -104,7 +115,7 @@
       </div>
     </main>
     <section id="about" class="container-fluid">
-      <div class="row">
+      <div class="row head">
         <div class="page-header text-center col-lg-12 bg-dark p-4">
           <h2 class="text-capitalize">about me</h2>
         </div>
@@ -130,7 +141,7 @@
             JavaScript, Django, SQL, Git and some related technologies. I can
             help bring your ideas to reality and develop very nice UI/UX Views.
             Learning from outstanding resources and taking on personal projects
-            and believe is shaping me well enough to become an all round
+            i believe is shaping me well enough to become an all round
             professional. I'll leave a link to where you can view projects i've
             worked on. I love what i do and i hope anyone reading this can
             contribute to my professional journey.
@@ -283,6 +294,20 @@
                   </span>
                 </button>
               </div>
+              <div class="social-icons">
+                <span class="icon"
+                  ><a href="https://www.linkedin.com/in/emmanuel-obi-7795511b1/"
+                    ><img src="./images/linkedin.svg" alt="linkedin image" /></a
+                ></span>
+                <span class="icon"
+                  ><a href="https://twitter.com/koliko_man"
+                    ><img src="./images/twitter.svg" alt="twitter image" /></a
+                ></span>
+                <span class="icon"
+                  ><a href="https://github.com/EmmanuelObi"
+                    ><img src="./images/github.svg" alt="github image" /></a
+                ></span>
+              </div>
             </form>
           </div>
         </div>
@@ -302,18 +327,17 @@
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
-
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
     ></script>
 
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
     <script src="./ContactFrom_v1/vendor/jquery/jquery-3.2.1.min.js"></script>
     <script src="./ContactFrom_v1/vendor/bootstrap/js/popper.js"></script>
     <script src="./ContactFrom_v1/vendor/bootstrap/js/bootstrap.min.js"></script>
